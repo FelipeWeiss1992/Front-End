@@ -1,52 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <link rel="stylesheet" href="CSS/form.css">
     <link rel="stylesheet" href="CSS/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Editar Funcionario</title>
+    <title>Editar Aluno</title>
 </head>
 <body>
     <header>
-        <div id="logo">
-            <a href="index.html">
-                <img src="img/logo.jpeg" alt="Logo">
-            </a>
-        </div>
+      
         <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="cadastrar.html">Cadastrar</a></li>
-        <li><a href="listar.html">Listar</a></li>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="cadastrar.html">Cadastrar</a></li>
+            <li><a href="listar.html">Listar</a></li>
         
         </ul>
     </header>
     <main>
-        <h1>Editar Funcionario</h1>
+        <h1>Editar Aluno</h1>
         <hr />
 
         <form action="">
         
             
             <div>
-                <input type="text" id = "ID" placeholder="ID">
+                <input type="text" id = "ID" class = "campos" placeholder="ID">
             </div>
             
             <div>
-                <input type="text" id = "Nome Completo" placeholder="Nome Completo">
+                <input type="text" id = "nome completo" class = "campos" placeholder="Nome Completo">
             </div>
              
             <div>
-                <input type="text" id = "cargo" placeholder="Cargo">
+                <input type="text" id = "media" class = "campos" placeholder="Media">
             </div>
             
             <div>
-                <input type="text" id = "salario" placeholder="Salario">
+                <input type="text" id = "situACAO" class = "campos" placeholder="Situação">
             </div>
             
             <div>
                 <input class="botoes_salvar" type="submit" value="Salvar">
-                <button class="botoes_salvar">Limpar</button>
+                <input class="botoes_limpar" type="submit" value="Limpar">
             </div>
             
         </form>

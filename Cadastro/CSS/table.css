@@ -1,0 +1,25 @@
+#funcionario{
+
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#funcionario thead{
+
+    background-color: rgb(41, 148, 236);
+    text-transform: uppercase;
+}
+
+tbody a{
+
+    background-color: black;
+    color: rgb(240, 240, 231);
+}
+
+tbody tr{
+
+    background-color: rgb(37, 120, 158);
+    color: rgb(255, 250, 250);
+}
