@@ -28,11 +28,6 @@ form{
 
 }
 
-.botoes_salvar:hover{
-
-    cursor: pointer;
-}
-
 .botoes_salvar{
 
     color: rgb(252, 252, 252);
@@ -40,6 +35,10 @@ form{
 
 }
 
+.botoes_salvar:hover{
+
+    cursor: pointer;
+}
 
 .botoes_limpar{
 
@@ -49,7 +48,7 @@ form{
     margin-top: 20px;
     width: 100px;
     height: 20px;
-    border-radius: 10px;
+    border-radius: 10px;    
 
 }
 
@@ -57,5 +56,11 @@ form{
 
     color: rgb(252, 252, 252);
     background-color: rgb(231, 10, 10);
+
+}
+
+.botoes_limpar{
+
+    cursor: pointer;
 
 }

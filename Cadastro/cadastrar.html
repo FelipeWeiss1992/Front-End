@@ -28,20 +28,20 @@
             
 
             <div>
-                <input type="text" id = "Nome Completo" class = "campos" placeholder="Nome Completo">
+                <input type="text"  class = "campos" name ="nome" placeholder="Nome Completo">
             </div>
 
             <div>
-                <input type="text" id = "media" class = "campos" placeholder="Media">
+                <input type="text" class = "campos" name ="media"  placeholder="Media">
             </div>
     
             <div>
-                <input type="text" id = "situacao" class = "campos" placeholder="Situação">
+                <input type="text"  class = "campos" name ="situacao" placeholder="Situação">
             </div>
 
             <div>
-                <input class="botoes_salvar" type="submit" value="Salvar">
-                <input class="botoes_limpar" type="submit" onclick="limpar(event)" value="Limpar">
+                <input class="botoes_salvar" id="salvar" type="submit" value="Salvar">
+                <button class= "botoes_limpar" onclick="limpar(event)">Limpar</button>
             </div>
             
 
@@ -54,5 +54,6 @@
     </footer>
 
     <script src="js/script.js"></script>
+
 </body>
 </html>
