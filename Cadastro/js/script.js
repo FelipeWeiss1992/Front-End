@@ -53,6 +53,7 @@ function salvar(event){
     
     localStorage.setItem('IdAluno',JSON.stringify(id));
     localStorage.setItem('Alunos',JSON.stringify(listaAlunos));
+    limpar(event);
 }
 
 document.getElementById('salvar').addEventListener('click', salvar)

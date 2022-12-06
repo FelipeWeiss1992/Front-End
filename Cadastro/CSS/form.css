@@ -38,6 +38,9 @@ form{
 .botoes_salvar:hover{
 
     cursor: pointer;
+    border: 1px solid;
+    background: rgb(20, 204, 3);
+    font-weight: bold;
 }
 
 .botoes_limpar{
@@ -59,8 +62,11 @@ form{
 
 }
 
-.botoes_limpar{
+.botoes_limpar:hover{
 
     cursor: pointer;
+    border: 1px solid;
+    background: rgb(231, 9, 9);
+    font-weight: bold;
 
 }
