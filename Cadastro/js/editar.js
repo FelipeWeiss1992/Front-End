@@ -29,8 +29,7 @@ function editar(event){
     var novalista = [];
 
     lista.forEach(e => {
-        if (e['id'!= id]){
-
+        if (e ['id'] != id){
             novalista.push(e);
         } else {
             novalista.push(Aluno);
