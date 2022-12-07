@@ -34,6 +34,7 @@ function salvar(event){
         listaAlunos = [];
 
     }
+    
     var id = JSON.parse(localStorage.getItem('IdAluno'));
     if(listaAlunos == null){
 

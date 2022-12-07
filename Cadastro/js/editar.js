@@ -22,24 +22,25 @@ function editar(event){
         'id': id,
         'nome': name,
         'media': media,
-        'situacao': situation
-};
-
-var lista = carregalocalstorage();
-var novalista = [];
-
-lista.forEach(e => {
-    if (e['id'!= id]){
-
-        novalista.push(e);
-    }
-    else{
-        novalista.push(Aluno);
-    }
+        'situacao': situation};
     
-});
-localStorage.setItem('Alunos', JSON.stringify(novalista));
-alert('Editado com Sucesso...')
+
+    var lista = carregalocalstorage();
+    var novalista = [];
+
+    lista.forEach(e => {
+        if (e['id'!= id]){
+
+            novalista.push(e);
+        } else {
+            novalista.push(Aluno);
+        }
+
+    });
+
+    localStorage.setItem('Alunos', JSON.stringify(novalista));
+    alert('Editado com Sucesso...')
+
 };
 
 function carregaCampos(dado){
@@ -53,19 +54,17 @@ function carregaCampos(dado){
 
 function carregadados(){
 
-    var urlParameters = new URLSearchParams(window.location.search);
+    var urlParametros = new URLSearchParams(window.location.search);
 
-    var id = parseInt = (urlParameters.get('id'));
+    var id = parseInt(urlParametros.get('id'));
 
     var alunos = JSON.parse(localStorage.getItem('Alunos'));
 
     alunos.forEach(e =>{
-        if (['id'] == id) {
-            carregacCampos(e)
-
+        if (e['id'] == id){
+            
+            carregaCampos(e);
         }
-
-
 
     });
 
